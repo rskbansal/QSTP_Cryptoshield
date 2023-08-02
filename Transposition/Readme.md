@@ -8,8 +8,6 @@ The Transposition Cipher is a simple method of encrypting text by rearranging it
 key of 12.)
 3. Start filling in the boxes from left to right, with one character per box.
 4. When you run out of boxes and still have characters left, add another row of boxes.
-98 http://inventwithpython.com/hacking
-Email questions to the author: al@inventwithpython.com
 5. Shade in the unused boxes in the last row.
 6. Starting from the top left and going down, write out the characters. When you get to the
 bottom of the column, move to the next column to the right. Skip any shaded boxes. This

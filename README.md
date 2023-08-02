@@ -5,8 +5,8 @@ All the resources, assignments and code snippets from Cryptoshield, A Quark Summ
 - [dCode](https://www.dcode.fr/)
 - [Cryptii](https://cryptii.com/)
 - [Esolangs](https://esolangs.org/wiki/Main_Page)
-- [CyberChef](https://gchq.github.io/CyberChef/)
 - [Boxentriq](https://www.boxentriq.com/code-breaking)
+- [CyberChef](https://gchq.github.io/CyberChef/)
 - [Try It Online](https://tio.run/)
 
 ### Reversed Text
@@ -63,3 +63,7 @@ Use these interpreters:
 (=<`#9]~6ZY32Vx/4Rs+0No-&Jk)"Fh}|Bcy?`=*z]Kw%oG4UUS0/@-ejc(:'8dc
 ```
 Translates to - `Hello World!`
+
+### Rockstar
+A language intended to look like a song's lyrics, heavily influenced by the lyrical conventions of 1980s hard rock and power ballads. [GitHub Repository](https://github.com/RockstarLang/rockstar)<br><br>
+You can use their official online interpreter - https://codewithrockstar.com/online

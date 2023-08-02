@@ -55,7 +55,7 @@ Here's a detailed explanation of Base64:
 
 3. **Encoding Table:** Base64 uses an encoding table that assigns each possible 6-bit value to a specific character. The table is the foundation for the conversion from binary to text.
 
-### Encoding Process:
+#### Encoding Process:
 
 1. **Binary Data:** The input binary data is divided into groups of 3 bytes (24 bits).
 
@@ -65,7 +65,7 @@ Here's a detailed explanation of Base64:
 
 4. **Padding:** If the input data is not a multiple of 3 bytes, padding is added to the end of the encoded data to ensure that the last chunk is properly formed.
 
-### Example:
+#### Example:
 
 Let's encode the ASCII string "Hello" using Base64:
 
@@ -93,11 +93,11 @@ Map the decimal values to Base64 characters:
 
 Encoded Base64: "SGVsbG8="
 
-### Decoding:
+#### Decoding:
 
 Decoding Base64 is the reverse process. Each character is mapped back to its 6-bit value, and then these values are combined to retrieve the original binary data.
 
-### Key Points:
+#### Key Points:
 
 - Base64 doesn't provide encryption; it's meant for data representation.
 - Base64 encoding increases the size of data by about 33%.

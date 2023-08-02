@@ -114,6 +114,32 @@ You can use the following tools to encrypt/decrypt using the Atbash cipher:
 - [Cryptii](https://cryptii.com/pipes/atbash-cipher)
 - [dCode](https://www.dcode.fr/atbash-cipher)
 
+Here's an example of how the Atbash cipher works:
+
+Example:
+Plaintext: HELLO WORLD
+Atbash Encrypted: SVOOL DLIOW
+
+#### How Atbash Works:
+Alphabet Reversal: In the Atbash cipher, each letter is replaced with its mirror image in the alphabet. The first letter becomes the last, the second becomes the second-to-last, and so on.
+
+Case Insensitivity: The Atbash cipher is case-insensitive, meaning that uppercase letters are converted to lowercase and vice versa.
+
+Non-Alphabetic Characters: Non-alphabetic characters, like spaces and punctuation, are not modified and are kept as they are.
+
+#### Encrypting "HELLO WORLD":
+Here's how we would apply the Atbash cipher to the plaintext "HELLO WORLD":
+
+H becomes S (reversal of the first letter)
+E becomes V (reversal of the fifth letter)
+L becomes O (reversal of the twelfth letter)
+L becomes O (reversal of the twelfth letter)
+O becomes L (reversal of the fifteenth letter)
+The same process is repeated for each letter in the plaintext.
+
+#### Decryption:
+Interestingly, the Atbash cipher has the same process for encryption and decryption. Reversing the letters twice returns the original text. For example, applying Atbash twice to "SVOOL DLIOW" would yield "HELLO WORLD".
+
 ### Malbolge
 An esoteric language that looks a lot like Base85, but isn't.<br><br>
 Use these interpreters:

@@ -20,6 +20,57 @@ Or using Python:
 ct = "string"
 print(ct[::-1])
 ```
+
+Certainly, let's dive into ASCII encoding and how it's used to represent characters in computers.
+
+### ASCII Encoding:
+
+ASCII (American Standard Code for Information Interchange) is a character encoding that assigns numerical values to characters. It was one of the earliest character encoding standards and is widely used to represent characters in computers and communication systems.
+
+Each character is assigned a unique numerical value (code point) that corresponds to its representation. For example, the character 'A' is assigned the code point 65, 'B' is assigned 66, and so on.
+Refer (Ascii encoding)[https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html]
+
+#### Example:
+
+Let's consider the string "Hello, World!" and encode it using ASCII.
+
+**String:** "Hello, World!"
+
+#### ASCII Encoding Process:
+
+1. Each character in the string is assigned its ASCII code.
+2. The ASCII codes are represented as decimal numbers.
+
+#### ASCII Encoding "Hello, World!":
+
+- **Character 'H':** ASCII Code 72
+- **Character 'e':** ASCII Code 101
+- **Character 'l':** ASCII Code 108 (appears twice)
+- **Character 'o':** ASCII Code 111
+- **Character ',':** ASCII Code 44
+- **Character ' ':** ASCII Code 32
+- **Character 'W':** ASCII Code 87
+- **Character 'r':** ASCII Code 114
+- **Character 'l':** ASCII Code 108 (appears twice)
+- **Character 'd':** ASCII Code 100
+- **Character '!':** ASCII Code 33
+
+#### Encoded ASCII Representation:
+
+The encoded ASCII representation of the string "Hello, World!" is a sequence of decimal numbers:
+
+```
+72 101 108 108 111 44 32 87 111 114 108 100 33
+```
+
+#### Usage and Purpose:
+
+- ASCII encoding is used in text files, communication protocols, and programming languages to represent characters.
+- It's the basis for various other character encodings like UTF-8, UTF-16, etc.
+- ASCII-encoded characters are used as indices in fonts and character sets for rendering text.
+
+ASCII encoding is a foundational concept in computer systems and is responsible for how characters are represented and processed electronically.
+
 ### HexString
 
 Converting a string into its hexadecimal representation involves representing each character in the string as a pair of hexadecimal digits. Hexadecimal (hex) is a base-16 numbering system, using digits 0-9 and letters A-F to represent values from 0 to 15. This conversion is often used to represent binary data in a more human-readable form.

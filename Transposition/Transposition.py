@@ -11,8 +11,8 @@ def encryptMessage(key, message):
     return ''.join(ciphertext)
 
 def main():
-    myMessage = 'Common sense is not so common.'
-    myKey = 8
+    myMessage = input("Enter String to Encrypt: ")
+    myKey = int(input("Enter Key: "))
 
     ciphertext = encryptMessage(myKey, myMessage)
 

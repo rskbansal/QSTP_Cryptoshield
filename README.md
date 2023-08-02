@@ -4,6 +4,7 @@ All the resources, assignments and code snippets from Cryptoshield, A Quark Summ
 ## Some common tools to lookout for
 - [dCode](https://www.dcode.fr/)
 - [Cryptii](https://cryptii.com/)
+- [Esolangs](https://esolangs.org/wiki/Main_Page)
 - [CyberChef](https://gchq.github.io/CyberChef/)
 - [Boxentriq](https://www.boxentriq.com/code-breaking)
 - [Try It Online](https://tio.run/)
@@ -51,4 +52,14 @@ You can use the following tools to encrypt/decrypt using the Atbash cipher:
 - [Cryptii](https://cryptii.com/pipes/atbash-cipher)
 - [dCode](https://www.dcode.fr/atbash-cipher)
 
-### 
+### Malbolge
+An esoteric language that looks a lot like Base85, but isn't.<br><br>
+Use these interpreters:
+
+- [Malbolge Tools](http://zb3.me/malbolge-tools/)
+- [Malbolge - interpreter online](https://malbolge.doleczek.pl/)
+
+```
+(=<`#9]~6ZY32Vx/4Rs+0No-&Jk)"Fh}|Bcy?`=*z]Kw%oG4UUS0/@-ejc(:'8dc
+```
+Translates to - `Hello World!`

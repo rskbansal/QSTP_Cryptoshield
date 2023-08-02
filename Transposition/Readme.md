@@ -24,16 +24,16 @@ The original message is arranged in a grid with 4 columns:
 ```
 H E L L
 O - W O
-R L D -
+R L D - 
 ```
-The encrypted message is formed by reading the grid column by column: "HORLDELO LW".
+The encrypted message is formed by reading the grid column by column: "HORE LLWDLO ".
 
 To decrypt, the recipient rearranges the characters into rows again:
 
 ```
-H O R L
-D E L O
-L W -
+H O R E
+  L L W
+D L O -
 ```
 The original message "HELLO WORLD" is recovered.
 

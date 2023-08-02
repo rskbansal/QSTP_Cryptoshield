@@ -43,7 +43,7 @@ https://tio.run/#brainfuck
 
 ### Base64
 Base64 is a group of similar binary-to-text encoding schemes that represent binary data in an ASCII string format by translating it into a radix-64 representation. The term Base64 originates from a specific MIME content transfer encoding.<br><br>
-Base64 is a binary-to-text encoding scheme that's widely used to encode binary data (like images, files, and binary messages) into a plain text format. It's primarily used for situations where binary data needs to be transmitted or stored as text, such as in email attachments, URLs, or configuration files. Base64 is not an encryption method; rather, it's a way to represent binary data in a format that is safe for text-based systems.
+It's primarily used for situations where binary data needs to be transmitted or stored as text, such as in email attachments, URLs, or configuration files. Base64 is not an encryption method; rather, it's a way to represent binary data in a format that is safe for text-based systems.
 
 Here's a detailed explanation of Base64:
 

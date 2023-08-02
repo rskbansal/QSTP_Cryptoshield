@@ -74,3 +74,5 @@ Decryption in the Affine Cipher involves using the formula `D(x) = a^(-1) * (x -
 ### Security and Limitations:
 
 The security of the Affine Cipher depends on the choice of key values `a` and `b`. If `a` is not coprime with the alphabet size `m`, then some letters may not be reversible, reducing the possible keys. The Affine Cipher is relatively weak against modern cryptanalysis techniques, especially with larger alphabets.
+
+#### Write a Brute force decryption algorithm by yourself

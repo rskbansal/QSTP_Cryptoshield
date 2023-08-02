@@ -28,7 +28,7 @@ Certainly, let's dive into ASCII encoding and how it's used to represent charact
 ASCII (American Standard Code for Information Interchange) is a character encoding that assigns numerical values to characters. It was one of the earliest character encoding standards and is widely used to represent characters in computers and communication systems.
 
 Each character is assigned a unique numerical value (code point) that corresponds to its representation. For example, the character 'A' is assigned the code point 65, 'B' is assigned 66, and so on.
-Refer (Ascii encoding)[https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html]
+Refer [Ascii encoding](https://www.cs.cmu.edu/~pattis/15-1XX/common/handouts/ascii.html)
 
 #### Example:
 

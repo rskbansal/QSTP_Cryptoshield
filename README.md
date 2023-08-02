@@ -47,7 +47,7 @@ Base64 is a binary-to-text encoding scheme that's widely used to encode binary d
 
 Here's a detailed explanation of Base64:
 
-### Basics of Encoding:
+#### Basics of Encoding:
 
 1. **Character Set:** Base64 uses a set of 64 different characters (hence the name). These characters consist of letters (uppercase and lowercase), digits, and two additional symbols.
 

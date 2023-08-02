@@ -21,3 +21,28 @@ Let's take a simple example to understand the Transposition Cipher:
 
 The original message is arranged in a grid with 4 columns:
 
+```
+H E L L
+O - W O
+R L D -
+```
+The encrypted message is formed by reading the grid column by column: "HORLDELO LW".
+
+To decrypt, the recipient rearranges the characters into rows again:
+
+```
+H O R L
+D E L O
+L W -
+```
+The original message "HELLO WORLD" is recovered.
+
+### Usage
+
+1. Install Python on your system.
+2. Download this file
+3. Run the script using the command: `python transposition.py` in wsl
+4. Use can also use online compilers to run the code.
+
+### Write a python script to decrypt transpositon cipher without the key.
+

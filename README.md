@@ -1,6 +1,12 @@
 # QSTP_Cryptoshield
 All the resources, assignments and code snippets from Cryptoshield, A Quark Summer Term Project 2023, BITS Goa
 
+## Some common tools to lookout for
+- [dCode](https://www.dcode.fr/)
+- [Cryptii](https://cryptii.com/)
+- [CyberChef](https://gchq.github.io/CyberChef/)
+- [Boxentriq](https://www.boxentriq.com/code-breaking)
+- [Try It Online](https://tio.run/)
 
 ### Reversed Text
 Sometimes a ***ciphertext*** is just as easy as reversed text. Don't forgot to check under this rock!<br><br>
@@ -31,6 +37,8 @@ Here are the eight Brainfuck commands:
 | `.`     | Output the character at the current memory cell    |
 
 Each command operates on a simple memory model, and Brainfuck programs are composed of sequences of these commands to perform computations and execute algorithms.
+
+https://tio.run/#brainfuck
 
 ### Base64
 Base64 is a group of similar binary-to-text encoding schemes that represent binary data in an ASCII string format by translating it into a radix-64 representation. The term Base64 originates from a specific MIME content transfer encoding.<br><br>

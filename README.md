@@ -1,6 +1,3 @@
-# QSTP_Cryptoshield
-All the resources, assignments and code snippets from Cryptoshield, A Quark Summer Term Project 2023, BITS Goa
-
 ## Some common tools to lookout for
 - [dCode](https://www.dcode.fr/)
 - [Cryptii](https://cryptii.com/)
@@ -129,3 +126,6 @@ Translates to - `Hello World!`
 ### Rockstar
 A language intended to look like a song's lyrics, heavily influenced by the lyrical conventions of 1980s hard rock and power ballads. [GitHub Repository](https://github.com/RockstarLang/rockstar)<br><br>
 You can use their official online interpreter - https://codewithrockstar.com/online
+
+### Piet
+A programming language in which programs look like abstract paintings. The language is named after Piet Mondrian, who pioneered the field of geometric abstract art.<br><br>

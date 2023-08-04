@@ -42,7 +42,7 @@ Let's consider the string "Hello, World!" and encode it using ASCII.
 - **'H' :** ASCII Code 72
 - **'e' :** ASCII Code 101
 - **'l' :** ASCII Code 108 (appears thrice)
-- **'o' :** ASCII Code 111
+- **'o' :** ASCII Code 111 (appears twice)
 - **',' :** ASCII Code 44
 - **' ' :** ASCII Code 32
 - **'W' :** ASCII Code 87
@@ -136,8 +136,8 @@ Let's encode the ASCII string "Hello" using Base64:
 
 Divide the binary data into 6-bit chunks:
 
-- 010010 000110 010101 101100 110011 011011 000110 110011 011011 011110
-- Decimal: 18 6 21 44 51 27 6 51 27 30
+- 010010 000110 010101 101100 011011 000110 1111**00** **(padding)**
+- Decimal: 18 6 21 44 27 6 60
 
 Map the decimal values to Base64 characters:
 
@@ -145,14 +145,11 @@ Map the decimal values to Base64 characters:
 - 6: G
 - 21: V
 - 44: s
-- 51: z
-- 27: H
+- 27: b
 - 6: G
-- 51: z
-- 27: H
-- 30: e
+- 60: 8
 
-Encoded Base64: `SGVsbG8=``
+Encoded Base64: `SGVsbG8=`
 
 ### Decoding:
 

@@ -34,13 +34,13 @@ Where:
    - O: 14
 
 2. Apply Encryption Formula:
-   - H: `(5 * 7 + 8) % 26 = 11 -> L`
+   - H: `(5 * 7 + 8) % 26 = 17 -> R`
    - E: `(5 * 4 + 8) % 26 = 2 -> C`
    - L: `(5 * 11 + 8) % 26 = 11 -> L`
    - L: `(5 * 11 + 8) % 26 = 11 -> L`
    - O: `(5 * 14 + 8) % 26 = 0 -> A`
 
-**Encrypted Ciphertext:** "LCLLA"
+**Encrypted Ciphertext:** "RCLLA"
 
 ### Decryption Process:
 
@@ -48,12 +48,12 @@ Decryption in the Affine Cipher involves using the formula `D(x) = a^(-1) * (x -
 
 ### Example of Decryption:
 
-**Ciphertext:** "LCLLA"  
+**Ciphertext:** "RCLLA"  
 **Key (a, b):** (5, 8)  
 **Alphabet Size (m):** 26
 
 1. Convert Ciphertext to Numerical Values:
-   - L: 11
+   - R: 17
    - C: 2
    - L: 11
    - L: 11
@@ -63,10 +63,10 @@ Decryption in the Affine Cipher involves using the formula `D(x) = a^(-1) * (x -
    - In this example, `a = 5`. The modular multiplicative inverse of 5 modulo 26 is 21.
 
 3. Apply Decryption Formula:
-   - L: `21 * (11 - 8) % 26 = 7 -> H`
+   - R: `21 * (17 - 8) % 26 = 7 -> H`
    - C: `21 * (2 - 8) % 26 = 4 -> E`
-   - L: `21 * (11 - 8) % 26 = 7 -> H`
-   - L: `21 * (11 - 8) % 26 = 7 -> H`
+   - L: `21 * (11 - 8) % 26 = 11 -> L`
+   - L: `21 * (11 - 8) % 26 = 11 -> L`
    - A: `21 * (0 - 8) % 26 = 14 -> O`
 
 **Decrypted Plaintext:** "HELLO"

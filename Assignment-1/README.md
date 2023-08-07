@@ -35,7 +35,7 @@ QSTP{5icK_0f_B1nary_nOw_:(}
 
 ## Question 3
 ### Description
-My friend used a very known encryption to send me a piece of text over the internet in a secure way. However, 5 of my colleagues at BITSkrieg intercepted the message in between one after the other. Instead of decrypting the ciphertext, they further encrypted it using the same encryption.
+My friend used a very known encryption to send me a piece of text over the internet in a secure way. However, 5 of my colleagues at BITSkrieg intercepted the message in between one after the other. Instead of decrypting the ciphertext, they further encrypted it using the same encryption. Please help me decode this huge ass string of 0's & 1's  T_T
 
 [Ciphertext](./3.txt)
 

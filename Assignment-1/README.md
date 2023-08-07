@@ -45,5 +45,9 @@ Looking at the ciphertext, it seems clear that the piece of text is encoded with
 - [CyberChef Recipe](https://gchq.github.io/CyberChef/#recipe=From_Binary('Space',8)From_Binary('Space',8)From_Binary('Space',8)From_Binary('Space',8)From_Binary('Space',8)From_Binary('Space',8))
 - [Python Script](./dec.py)
 
+### Flag
+```
+QSTP{FUcCk_b1nary!?}
+```
 > **Note**
 > I used [this](./gen.py) script to generate the ciphertext

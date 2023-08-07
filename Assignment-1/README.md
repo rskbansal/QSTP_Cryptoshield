@@ -50,4 +50,4 @@ Looking at the ciphertext, it seems clear that the piece of text is encoded with
 QSTP{FUcCk_b1nary!?}
 ```
 > **Note**
-> I used [this](./gen.py) script to generate the ciphertext
+> I used [this](./Assignment-1/gen.py) script to generate the ciphertext

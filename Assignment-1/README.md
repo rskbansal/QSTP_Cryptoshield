@@ -6,7 +6,7 @@ The mentors of QSTP, just broke 'QSTP' into 2 words and created a cipher out of 
 [Ciphertext](./1.txt)
 
 ### Solution
-There are only QSs & TPs, which hints for some 2-character encryption. Also, each of the rows have 8 such strings in total & all of them begins with `QS`. This hints that this is a simple binary encryption with `QS->0` & `TP->1`. Use any online binary to text converter to get the flag.
+There are only QSs & TPs, which hints for some 2-character encryption. Also, each of the rows have 8 such strings in total & all of them begins with `QS`. This hints that this is a simple binary encryption with `QS -> 0` & `TP -> 1`. Use any online binary to text converter to get the flag.
 
 [Tool](https://codebeautify.org/remove-punctuation)
 

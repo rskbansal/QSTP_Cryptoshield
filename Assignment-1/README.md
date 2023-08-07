@@ -49,5 +49,5 @@ Looking at the ciphertext, it seems clear that the piece of text is encoded with
 ```
 QSTP{FUcCk_b1nary!?}
 ```
-> **Note**
+> **Important**
 > I used [this](./Assignment-1/gen.py) script to generate the ciphertext

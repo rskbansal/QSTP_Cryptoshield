@@ -237,6 +237,3 @@ A programming language in which programs look like abstract paintings. The langu
 
 ![](./res/68747470733a2f2f7777772e626572746e6173652e64652f6e706965742f68692e706e67.png)  
 Translates to - `Hi`
-
-
-TEST COMMIT
